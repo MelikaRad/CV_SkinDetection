@@ -16,7 +16,10 @@ The algorithm described in the paper "Human Skin Detection Using RGB, HSV and YC
 
 As there can be seen in the algorithm, there is an OR operation, by which the algorithm divides into two steps. So I decided to make two masks, one for the conditions stated before OR, and one for the conditions stated after OR; and at the end, the union of them is computed and this final mask is applied on the original image.  
 
-Additionaly, morthological operations and other noise removal methods have been applied in order to improve the quality of the masks.
+Additionaly, morthological operations and other noise removal methods have been applied in order to improve the quality of the masks.  
+
+sample result:  
+![oprah](sample_result.png)
 
 
 
